@@ -1,0 +1,30 @@
+.Id1.ids,
+.Id2.ids,
+.Id3.ids,
+.Id4.ids,
+.Id6.ids,
+.Id7.ids,
+.Id8.ids,
+.Id9.ids {
+  animation-play-state: paused;
+}
+.Id1.ids.active-Id,
+.Id3.ids.active-Id,
+.Id7.ids.active-Id,
+.Id9.ids.active-Id {
+  animation: fontbulger 3s infinite;
+  animation-delay: 1s;
+}
+.Id2.ids.active-Id,
+.Id4.ids.active-Id,
+.Id6.ids.active-Id,
+.Id8.ids.active-Id,
+.Id10.ids.active-Id {
+  animation: second 3s infinite;
+  animation-delay: 1s;
+}
+@keyframes fontbulger {
+  0%   { transform: translate(0px, 0px) }
+  50% { transform: translate(5px, 5px) }
+  100% { transform: translate(0px, 0px) }
+}
